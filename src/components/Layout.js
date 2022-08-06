@@ -10,7 +10,7 @@ const Layout = () => {
         </nav>
 
         <Outlet />
-        <footer>Powered by Qing Zhou</footer>
+        <footer style={{position: "absolute", bottom: 0}}>Powered by Qing Zhou</footer>
       </div>
     );
   };

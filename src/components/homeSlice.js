@@ -13,8 +13,12 @@ export const homeSlice = createSlice({
         updatePrices: (state, action) => {
             state.prices = action.payload;
         },
-        increment: state => state.count = state.count + 1,
-        decrement: state => state.count = state.count - 1,
+        increment: state => {
+            state.count = state.count + 1;
+        },
+        decrement:  state => {
+            state.count = state.count - 1;
+        }
     },
 });
 
